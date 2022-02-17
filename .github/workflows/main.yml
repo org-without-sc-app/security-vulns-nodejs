@@ -21,5 +21,5 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args:
-            -DprojectKey:ChrisReferenceProjects_security-vulns-nodejs
-            -Dorganization:chrisreferenceprojects
+            -DprojectKey=ChrisReferenceProjects_security-vulns-nodejs
+            -Dorganization=chrisreferenceprojects
