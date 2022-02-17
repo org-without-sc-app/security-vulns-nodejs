@@ -19,3 +19,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          args:
+            projectKey:ChrisReferenceProjects_security-vulns-nodejs
+            organization:chrisreferenceprojects
