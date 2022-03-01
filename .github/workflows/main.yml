@@ -21,6 +21,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectBaseDir: . # optional, default is "."
+            -Dsonar.projectBaseDir=. # optional, default is "."
             -Dsonar.projectKey=ChrisReferenceProjects_security-vulns-nodejs
             -Dsonar.organization=chrisreferenceprojects
