@@ -20,7 +20,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
-          args: >
+          args:
             -Dsonar.projectBaseDir=.
             -Dsonar.projectKey=ChrisReferenceProjects_security-vulns-nodejs
             -Dsonar.organization=chrisreferenceprojects
